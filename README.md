@@ -1,7 +1,7 @@
 # PyBer_Analysis
 Creating and annotating graphs and charts using the Matplotlib library.
 
-## Project Background
+## Project Background and Goals
 
 * Matplotlib has a rich set of features for creating and annotating charts that visualize data in a Data Series or DataFrame.
 * This is a data analyst project at PyBer, a ride-sharing app company valued at $2.3 billion and we need to analyze all the rideshare data from January to early May of 2019 and create a compelling visualization using Matplotlib and SciPy statistics.
