@@ -28,11 +28,33 @@ Creating and annotating graphs and charts using the Matplotlib library.
 * Data Source: city_data.csv, ride_data.csv.
 
 ## Results of project
-1. The mean, median, and mode of the number of rides, the fares, and the number of drivers for each city type and create box-and-whisker plots
+1. The ride-sharing bubble chart shows the total number of rides per city. One bubble chart has all the city types with the different colors.
+
+![PyBer_RideSharing_Data.png](Analysis/PyBer_RideSharing_Data.png)
+
+2. The mean, median, and mode of the number of rides, the fares, and the number of drivers for each city type and create box-and-whisker plots with the statistics
+* Number of ride per the city type
+![Ride_count_data.png](Analysis/Fig_ride_count_data.png)
+
+* Ride fare data per the city type
+![Ride_fair_data.png](Analysis/Fig_ride_fair_data.png)
+
+* Driver Count Data per the city type
+![Drivers_count_data.png](Analysis/Fig_drivers_count_data.png)
+
+3. Pie chart to visualizes each of the percent of total fares, total rides, and total drivers for each city type.
+
+* Ride percentage the city type
+![Ride_percentages.png](Analysis/ride_percentages.png)
+
+* Fare percentage per the city type
+![Ride_fair_percentage__by_city_type.png](Analysis/fares_percentage__by_city_type.png)
+
+* Driver percentageper the city type
+![Drivers_percentages.png](Analysis/driver_percentages.png)
 
 
-
-## Challenge
+# Challenge
 
 #### Challenge Goal
 
@@ -40,7 +62,8 @@ Create an overall snapshot of the ride-sharing data with key metrics of the ride
 
 #### Summary Table
 
-![summary_table.JPG](/analysis/summary_table.JPG)
+* The Suumary DataFrame of total ride, drivers, fares, average fares per ride and drivers
+![PyBer_summary_df.PNG](Analysis/PyBer_summary_df.PNG)
 
 Summary Table Conclusion:
 By comparing the average fare per rides between each city type, rural cities have highest average fare per ride than suburban and urban by around four dollars and 10 dollars, respectively.
@@ -48,7 +71,7 @@ For the column of average fare per driver, rural cities also perform well than s
 
 #### Multiple-line Chart
 
-![Challenge_Fig.png](/analysis/Challenge_Fig.png)
+![Fare_summary.png](Analysis/PyBer_fare_summary.png)
 
 Multiple-Line Plot conclusion:
 This multiple-line charts showcases the total fare per city type changes by times. The X axis shows date from 1/1/2019 to 4/28/2019, and total fare in Y axis. In that line chart, Urban cities have highest total fares all the time, and Rural cities are lowest all over time. Suburban's line is in the middle.
