@@ -65,7 +65,7 @@ Creating and annotating graphs and charts using the Matplotlib library.
 #### Challenge Goal
 
 * Create a summary DataFrame of the ride-sharing data by city type using groupby(), count(), sum() fuctions.
-* Create a multiple-line graph that shows the total weekly fares for each city type using pivot() and resample() functions.
+* Create a multiple-line graph that shows the total weekly fares for each city type using pivot() and resample(), and loc() functions.
 
 #### A ride-sharing summary DataFrame by city type
 
@@ -88,4 +88,9 @@ Furthermore, the urban's line shows there are several peaks in March and April. 
 
 
 #### Summaries
+
+* Total numbers of rides, drivers, fares, average fare per ride and drivers for each city type have beend retrieved by groupby(), count(), and sum() fuctions. 
+* A DataFrame was created using the groupby(), pivot(), loc(), and resample fuctions and annotated chart in weekly bins showing the total fares by city type is created.
+* From a multiple-line chart, urban cities have highest total fares all the time, and Rural cities are lowest all over time. Suburban's line is in the middle.
+
 
