@@ -64,9 +64,10 @@ Creating and annotating graphs and charts using the Matplotlib library.
 
 #### Challenge Goal
 
-Create an overall snapshot of the ride-sharing data with key metrics of the ride-sharing data by city type, and a multiple-line graph that shows the average fare for each week by each city type
+* Create a summary DataFrame of the ride-sharing data by city type using groupby(), count(), sum() fuctions.
+* Create a multiple-line graph that shows the total weekly fares for each city type using pivot() and resample() functions.
 
-#### Summary Table
+#### A ride-sharing summary DataFrame by city type
 
 * The Suumary DataFrame of total ride, drivers, fares, average fares per ride and drivers.
 
@@ -76,7 +77,7 @@ Summary Table Conclusion:
 By comparing the average fare per rides between each city type, rural cities have highest average fare per ride than suburban and urban by around four dollars and 10 dollars, respectively.
 For the column of average fare per driver, rural cities also perform well than suburban and urban cities by 40% and 230%. The reason is that the rides and drivers count of rural cities, significantly lower than urban and suburban cities. It leads to average values greater than urban and suburban.
 
-#### Multiple-line Chart
+#### A multiple-line chart of total fares for each city type
 
 ![Fare_summary.png](Analysis/PyBer_fare_summary.png)
 
@@ -84,3 +85,7 @@ Multiple-Line Plot conclusion:
 This multiple-line charts showcases the total fare per city type changes by times. The X axis shows date from 1/1/2019 to 4/28/2019, and total fare in Y axis. In that line chart, Urban cities have highest total fares all the time, and Rural cities are lowest all over time. Suburban's line is in the middle.
 
 Furthermore, the urban's line shows there are several peaks in March and April. At the same time, the line of rural shows some correlation to Urban's line. For example in the first week of March, urban's total fares are over 2,500 dollars. In parallel to that, rural's line reaches the lowest point, less than 360 dollars.
+
+
+#### Summaries
+
