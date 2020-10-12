@@ -34,23 +34,29 @@ Creating and annotating graphs and charts using the Matplotlib library.
 
 2. The mean, median, and mode of the number of rides, the fares, and the number of drivers for each city type and create box-and-whisker plots with the statistics
 * Number of ride per the city type
+
 ![Ride_count_data.png](Analysis/Fig_ride_count_data.png)
 
 * Ride fare data per the city type
+
 ![Ride_fair_data.png](Analysis/Fig_ride_fair_data.png)
 
 * Driver Count Data per the city type
+
 ![Drivers_count_data.png](Analysis/Fig_drivers_count_data.png)
 
 3. Pie chart to visualizes each of the percent of total fares, total rides, and total drivers for each city type.
 
 * Ride percentage the city type
+
 ![Ride_percentages.png](Analysis/ride_percentages.png)
 
 * Fare percentage per the city type
+
 ![Ride_fair_percentage__by_city_type.png](Analysis/fares_percentage__by_city_type.png)
 
 * Driver percentageper the city type
+
 ![Drivers_percentages.png](Analysis/driver_percentages.png)
 
 
@@ -62,7 +68,8 @@ Create an overall snapshot of the ride-sharing data with key metrics of the ride
 
 #### Summary Table
 
-* The Suumary DataFrame of total ride, drivers, fares, average fares per ride and drivers
+* The Suumary DataFrame of total ride, drivers, fares, average fares per ride and drivers.
+
 ![PyBer_summary_df.PNG](Analysis/PyBer_summary_df.PNG)
 
 Summary Table Conclusion:
