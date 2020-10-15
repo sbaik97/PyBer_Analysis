@@ -62,7 +62,7 @@ Creating and annotating graphs and charts using the Matplotlib library.
 
 # Challenge
 
-#### Challenge Goal
+### Challenge Goal
 
 * Create a summary DataFrame of the ride-sharing data by city type using groupby(), count(), sum() fuctions.
 * Create a multiple-line graph that shows the total weekly fares for each city type using pivot() and resample(), and loc() functions.
