@@ -67,6 +67,8 @@ Creating and annotating graphs and charts using the Matplotlib library.
 * Create a summary DataFrame of the ride-sharing data by city type using groupby(), count(), sum() fuctions.
 * Create a multiple-line graph that shows the total weekly fares for each city type using pivot() and resample(), and loc() functions.
 
+## Results of project
+
 #### A ride-sharing summary DataFrame by city type
 
 * The Suumary DataFrame of total ride, drivers, fares, average fares per ride and drivers.
